@@ -9,5 +9,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:infraredCoding/ping-fm-vues.git master:gh-pages
+git push -f git@github.com:infraredCoding/ping-fm-vue.git master:gh-pages
 cd -
