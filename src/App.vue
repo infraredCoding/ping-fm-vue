@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col justify-center max-w-xl mx-auto">
-    <img src="./assets/logo.svg" alt="PING Logo" class="w-16 md:w-20 mx-auto pb-10 pt-16">
+  <div class="flex flex-col justify-center max-w-2xl mx-auto">
+    <img src="./assets/logo.svg" alt="PING Logo" class="w-16 md:w-20 mx-auto pb-10 pt-24">
 
     <div class="flex flex-col text-center justify-center">
       <h1 class="text-2xl md:text-5xl font-light text-tgray">
