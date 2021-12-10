@@ -1,26 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="flex flex-col justify-center max-w-lg mx-auto">
+    <img src="./assets/logo.svg" alt="PING Logo" class="w-16 md:w-20 mx-auto pb-8 pt-12">
+
+    <div class="flex flex-col text-center justify-center">
+      <h1 class="text-2xl md:text-4xl font-light text-tgray">
+        We are launching <span class="font-bold text-dark">soon!</span>
+      </h1>
+      <p class="text-dark font-light pt-2 text-sm">Subscribe and get notified</p>
+    </div>
+
+    <NotiInput />
+
+    <img src="./assets/illustration-dashboard.png" alt="illustration" class="w-full pt-16 md:px-0 px-5">
+
+    <Footer />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Footer from './components/Footer'
+import NotiInput from './components/NotificationInput'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Footer,
+    NotiInput,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  font-family: 'Libre Franklin', sans-serif;
 }
 </style>
