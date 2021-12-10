@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col justify-center max-w-lg mx-auto">
-    <img src="./assets/logo.svg" alt="PING Logo" class="w-16 md:w-20 mx-auto pb-8 pt-12">
+  <div class="flex flex-col justify-center max-w-xl mx-auto">
+    <img src="./assets/logo.svg" alt="PING Logo" class="w-16 md:w-20 mx-auto pb-10 pt-16">
 
     <div class="flex flex-col text-center justify-center">
-      <h1 class="text-2xl md:text-4xl font-light text-tgray">
+      <h1 class="text-2xl md:text-5xl font-light text-tgray">
         We are launching <span class="font-bold text-dark">soon!</span>
       </h1>
-      <p class="text-dark font-light pt-2 text-sm">Subscribe and get notified</p>
+      <p class="text-dark font-light pt-4 text-lg">Subscribe and get notified</p>
     </div>
 
     <NotiInput />
